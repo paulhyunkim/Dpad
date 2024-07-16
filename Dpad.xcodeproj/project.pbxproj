@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6908049328FA5581004F305E /* ChannelsSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908049228FA5581004F305E /* ChannelsSidebar.swift */; };
+		6908049428FA5581004F305E /* ChannelsSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908049228FA5581004F305E /* ChannelsSidebar.swift */; };
+		6908049628FA725A004F305E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6908049528FA725A004F305E /* Colors.xcassets */; };
+		6908049728FA725A004F305E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6908049528FA725A004F305E /* Colors.xcassets */; };
+		6908049928FA7738004F305E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908049828FA7738004F305E /* Color.swift */; };
+		6908049A28FA7738004F305E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908049828FA7738004F305E /* Color.swift */; };
+		69245DDB28FFE38C00D7D87D /* WindowGroupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69245DDA28FFE38C00D7D87D /* WindowGroupContentView.swift */; };
+		69245DDC28FFE38C00D7D87D /* WindowGroupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69245DDA28FFE38C00D7D87D /* WindowGroupContentView.swift */; };
+		6933D793293C4F4500A2D6A0 /* StreamDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933D792293C4F4500A2D6A0 /* StreamDataServices.swift */; };
+		6933D794293C67A400A2D6A0 /* StreamDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6933D792293C4F4500A2D6A0 /* StreamDataServices.swift */; };
+		693844D6293C8E3D00BB4EAB /* YouTubeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693844D5293C8E3D00BB4EAB /* YouTubeDataService.swift */; };
+		693844D7293C8E3D00BB4EAB /* YouTubeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693844D5293C8E3D00BB4EAB /* YouTubeDataService.swift */; };
+		693844DA293D72D100BB4EAB /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 693844D9293D72D100BB4EAB /* SwiftSoup */; };
+		693844DC293D74C900BB4EAB /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 693844DB293D74C900BB4EAB /* SwiftSoup */; };
+		693844DE293DABBE00BB4EAB /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693844DD293DABBE00BB4EAB /* Channel.swift */; };
+		693844DF293DABBE00BB4EAB /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693844DD293DABBE00BB4EAB /* Channel.swift */; };
+		695355BF29D16A8E00FE65B7 /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695355BE29D16A8E00FE65B7 /* StreamView.swift */; };
+		695355C029D16A8E00FE65B7 /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695355BE29D16A8E00FE65B7 /* StreamView.swift */; };
+		6953894D2942FB5D00DC03E7 /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953894C2942FB5D00DC03E7 /* SizeReader.swift */; };
+		6953894E2942FB5D00DC03E7 /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953894C2942FB5D00DC03E7 /* SizeReader.swift */; };
+		695CAF11294050C7003B0B76 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 695CAF10294050C7003B0B76 /* URLImage */; };
+		695CAF13294050C7003B0B76 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 695CAF12294050C7003B0B76 /* URLImageStore */; };
+		695CAF15294051A8003B0B76 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 695CAF14294051A8003B0B76 /* URLImage */; };
+		695CAF17294051A8003B0B76 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 695CAF16294051A8003B0B76 /* URLImageStore */; };
+		6963320728FD27F600059FCF /* ChannelSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963320628FD27F600059FCF /* ChannelSection.swift */; };
+		6963320828FD27F600059FCF /* ChannelSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963320628FD27F600059FCF /* ChannelSection.swift */; };
+		6963320A28FD282B00059FCF /* ChannelListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963320928FD282B00059FCF /* ChannelListItem.swift */; };
+		6963320B28FD282B00059FCF /* ChannelListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963320928FD282B00059FCF /* ChannelListItem.swift */; };
+		6963320D28FE25FD00059FCF /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963320C28FE25FD00059FCF /* Clock.swift */; };
+		6963320E28FE25FD00059FCF /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963320C28FE25FD00059FCF /* Clock.swift */; };
+		6975934428F73C8C00940DA3 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975934328F73C8C00940DA3 /* Stream.swift */; };
+		6975934628F73CC200940DA3 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975934528F73CC200940DA3 /* ResponseModels.swift */; };
+		6975934B28F73DD900940DA3 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975934A28F73DD900940DA3 /* Shell.swift */; };
+		6975934C28F73DD900940DA3 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975934A28F73DD900940DA3 /* Shell.swift */; };
+		6975935028F7402900940DA3 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975934328F73C8C00940DA3 /* Stream.swift */; };
+		6975935128F7402C00940DA3 /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975934528F73CC200940DA3 /* ResponseModels.swift */; };
+		6975935428F7433B00940DA3 /* StreamPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935328F7433B00940DA3 /* StreamPlayer.swift */; };
+		6975935528F7433B00940DA3 /* StreamPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935328F7433B00940DA3 /* StreamPlayer.swift */; };
+		6975935728F7437B00940DA3 /* StreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935628F7437B00940DA3 /* StreamPlayerView.swift */; };
+		6975935828F7437B00940DA3 /* StreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935628F7437B00940DA3 /* StreamPlayerView.swift */; };
+		6975935D28F75F4A00940DA3 /* FavoriteChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935C28F75F4A00940DA3 /* FavoriteChannel.swift */; };
+		6975935E28F75F4A00940DA3 /* FavoriteChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935C28F75F4A00940DA3 /* FavoriteChannel.swift */; };
+		6975936028F7D33B00940DA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935F28F7D33B00940DA3 /* User.swift */; };
+		6975936128F7D33B00940DA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6975935F28F7D33B00940DA3 /* User.swift */; };
+		69936BC628FA800F005556AC /* streams.json in Resources */ = {isa = PBXBuildFile; fileRef = 69936BC528FA800F005556AC /* streams.json */; };
+		69936BC728FA800F005556AC /* streams.json in Resources */ = {isa = PBXBuildFile; fileRef = 69936BC528FA800F005556AC /* streams.json */; };
+		69936BC928FA8020005556AC /* channels.json in Resources */ = {isa = PBXBuildFile; fileRef = 69936BC828FA8020005556AC /* channels.json */; };
+		69936BCA28FA8020005556AC /* channels.json in Resources */ = {isa = PBXBuildFile; fileRef = 69936BC828FA8020005556AC /* channels.json */; };
+		69936BCC28FA802C005556AC /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 69936BCB28FA802C005556AC /* user.json */; };
+		69936BCD28FA802C005556AC /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 69936BCB28FA802C005556AC /* user.json */; };
+		69936BCF28FA86FC005556AC /* TwitchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BCE28FA86FC005556AC /* TwitchDataProvider.swift */; };
+		69936BD028FA86FC005556AC /* TwitchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BCE28FA86FC005556AC /* TwitchDataProvider.swift */; };
+		69936BD228FA8706005556AC /* MockTwitchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BD128FA8706005556AC /* MockTwitchDataProvider.swift */; };
+		69936BD328FA8706005556AC /* MockTwitchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BD128FA8706005556AC /* MockTwitchDataProvider.swift */; };
+		69936BD528FB5B21005556AC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BD428FB5B21005556AC /* Helpers.swift */; };
+		69936BD628FB5B21005556AC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BD428FB5B21005556AC /* Helpers.swift */; };
+		69936BD828FB5B76005556AC /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BD728FB5B76005556AC /* UserPreferences.swift */; };
+		69936BD928FB5B76005556AC /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BD728FB5B76005556AC /* UserPreferences.swift */; };
+		69936BDB28FB6159005556AC /* StreamlinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BDA28FB6159005556AC /* StreamlinkService.swift */; };
+		69936BDC28FB6159005556AC /* StreamlinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BDA28FB6159005556AC /* StreamlinkService.swift */; };
+		69936BDE28FB616C005556AC /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BDD28FB616C005556AC /* Errors.swift */; };
+		69936BDF28FB616C005556AC /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BDD28FB616C005556AC /* Errors.swift */; };
+		69936BE228FB6C57005556AC /* StreamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BE128FB6C57005556AC /* StreamsView.swift */; };
+		69936BE328FB6C57005556AC /* StreamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BE128FB6C57005556AC /* StreamsView.swift */; };
+		69936BE628FB6E35005556AC /* ChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BE528FB6E35005556AC /* ChannelList.swift */; };
+		69936BE728FB6E35005556AC /* ChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BE528FB6E35005556AC /* ChannelList.swift */; };
+		69936BE928FB85DE005556AC /* ChannelSearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BE828FB85DE005556AC /* ChannelSearchResultsList.swift */; };
+		69936BEA28FB85DE005556AC /* ChannelSearchResultsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69936BE828FB85DE005556AC /* ChannelSearchResultsList.swift */; };
+		699C889D28F91351009B31F2 /* Assets-Dev.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699C889C28F91351009B31F2 /* Assets-Dev.xcassets */; };
+		69B7FDE3293ED26600B310D9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7FDE2293ED26600B310D9 /* DataController.swift */; };
+		69B7FDE4293ED26600B310D9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7FDE2293ED26600B310D9 /* DataController.swift */; };
+		69B7FDE7293F1BE600B310D9 /* Sextant in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7FDE6293F1BE600B310D9 /* Sextant */; };
+		69B7FDE9293F241800B310D9 /* Sextant in Frameworks */ = {isa = PBXBuildFile; productRef = 69B7FDE8293F241800B310D9 /* Sextant */; };
+		69E61F0628F53D0400EF200B /* DpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F0528F53D0400EF200B /* DpadApp.swift */; };
+		69E61F0828F53D0400EF200B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F0728F53D0400EF200B /* ContentView.swift */; };
+		69E61F0A28F53D0500EF200B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E61F0928F53D0500EF200B /* Assets.xcassets */; };
+		69E61F0D28F53D0500EF200B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E61F0C28F53D0500EF200B /* Preview Assets.xcassets */; };
+		69E61F1828F53D0500EF200B /* DpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F1728F53D0500EF200B /* DpadTests.swift */; };
+		69E61F2228F53D0500EF200B /* DpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F2128F53D0500EF200B /* DpadUITests.swift */; };
+		69E61F2428F53D0500EF200B /* DpadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F2328F53D0500EF200B /* DpadUITestsLaunchTests.swift */; };
+		69E61F3A28F53F6100EF200B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F3928F53F6100EF200B /* Constants.swift */; };
+		69E61F3C28F542DB00EF200B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F3B28F542DB00EF200B /* AppState.swift */; };
+		69E61F4528F5E2B100EF200B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F0728F53D0400EF200B /* ContentView.swift */; };
+		69E61F4628F5E2B100EF200B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F3B28F542DB00EF200B /* AppState.swift */; };
+		69E61F4928F5E2B100EF200B /* DpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F0528F53D0400EF200B /* DpadApp.swift */; };
+		69E61F4A28F5E2B100EF200B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F3928F53F6100EF200B /* Constants.swift */; };
+		69E61F4F28F5E2B100EF200B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E61F0C28F53D0500EF200B /* Preview Assets.xcassets */; };
+		69E61F5628F6052B00EF200B /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F5528F6052B00EF200B /* MenuBarContentView.swift */; };
+		69E61F5728F6062C00EF200B /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E61F5528F6052B00EF200B /* MenuBarContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69E61F1428F53D0500EF200B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E61EFA28F53D0400EF200B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E61F0128F53D0400EF200B;
+			remoteInfo = Twitch;
+		};
+		69E61F1E28F53D0500EF200B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69E61EFA28F53D0400EF200B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69E61F0128F53D0400EF200B;
+			remoteInfo = Twitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6908049228FA5581004F305E /* ChannelsSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsSidebar.swift; sourceTree = "<group>"; };
+		6908049528FA725A004F305E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		6908049828FA7738004F305E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		69245DDA28FFE38C00D7D87D /* WindowGroupContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowGroupContentView.swift; sourceTree = "<group>"; };
+		6930F74E290128D4007F9D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6930F74F290129FA007F9D2A /* Dpad-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dpad-Dev-Info.plist"; sourceTree = "<group>"; };
+		6933D792293C4F4500A2D6A0 /* StreamDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamDataServices.swift; sourceTree = "<group>"; };
+		693844D5293C8E3D00BB4EAB /* YouTubeDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeDataService.swift; sourceTree = "<group>"; };
+		693844DD293DABBE00BB4EAB /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		695355BE29D16A8E00FE65B7 /* StreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamView.swift; sourceTree = "<group>"; };
+		6953894C2942FB5D00DC03E7 /* SizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeReader.swift; sourceTree = "<group>"; };
+		6963320628FD27F600059FCF /* ChannelSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelSection.swift; sourceTree = "<group>"; };
+		6963320928FD282B00059FCF /* ChannelListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListItem.swift; sourceTree = "<group>"; };
+		6963320C28FE25FD00059FCF /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		6975934328F73C8C00940DA3 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		6975934528F73CC200940DA3 /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		6975934A28F73DD900940DA3 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		6975935328F7433B00940DA3 /* StreamPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamPlayer.swift; sourceTree = "<group>"; };
+		6975935628F7437B00940DA3 /* StreamPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamPlayerView.swift; sourceTree = "<group>"; };
+		6975935C28F75F4A00940DA3 /* FavoriteChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteChannel.swift; sourceTree = "<group>"; };
+		6975935F28F7D33B00940DA3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		69936BC528FA800F005556AC /* streams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = streams.json; sourceTree = "<group>"; };
+		69936BC828FA8020005556AC /* channels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = channels.json; sourceTree = "<group>"; };
+		69936BCB28FA802C005556AC /* user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		69936BCE28FA86FC005556AC /* TwitchDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchDataProvider.swift; sourceTree = "<group>"; };
+		69936BD128FA8706005556AC /* MockTwitchDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTwitchDataProvider.swift; sourceTree = "<group>"; };
+		69936BD428FB5B21005556AC /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		69936BD728FB5B76005556AC /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		69936BDA28FB6159005556AC /* StreamlinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamlinkService.swift; sourceTree = "<group>"; };
+		69936BDD28FB616C005556AC /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		69936BE128FB6C57005556AC /* StreamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsView.swift; sourceTree = "<group>"; };
+		69936BE528FB6E35005556AC /* ChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelList.swift; sourceTree = "<group>"; };
+		69936BE828FB85DE005556AC /* ChannelSearchResultsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelSearchResultsList.swift; sourceTree = "<group>"; };
+		699C889C28F91351009B31F2 /* Assets-Dev.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets-Dev.xcassets"; sourceTree = "<group>"; };
+		69B7FDE2293ED26600B310D9 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		69CF2D8E28F7E1D300B496A3 /* Dpad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dpad.entitlements; sourceTree = "<group>"; };
+		69E61F0228F53D0400EF200B /* Dpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E61F0528F53D0400EF200B /* DpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpadApp.swift; sourceTree = "<group>"; };
+		69E61F0728F53D0400EF200B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69E61F0928F53D0500EF200B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69E61F0C28F53D0500EF200B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69E61F1328F53D0500EF200B /* DpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E61F1728F53D0500EF200B /* DpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpadTests.swift; sourceTree = "<group>"; };
+		69E61F1D28F53D0500EF200B /* DpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E61F2128F53D0500EF200B /* DpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpadUITests.swift; sourceTree = "<group>"; };
+		69E61F2328F53D0500EF200B /* DpadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DpadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69E61F3928F53F6100EF200B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69E61F3B28F542DB00EF200B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		69E61F5428F5E2B100EF200B /* Dpad Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dpad Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E61F5528F6052B00EF200B /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E61EFF28F53D0400EF200B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695CAF13294050C7003B0B76 /* URLImageStore in Frameworks */,
+				69B7FDE7293F1BE600B310D9 /* Sextant in Frameworks */,
+				695CAF11294050C7003B0B76 /* URLImage in Frameworks */,
+				693844DA293D72D100BB4EAB /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F1028F53D0500EF200B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F1A28F53D0500EF200B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F4B28F5E2B100EF200B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695CAF17294051A8003B0B76 /* URLImageStore in Frameworks */,
+				69B7FDE9293F241800B310D9 /* Sextant in Frameworks */,
+				695CAF15294051A8003B0B76 /* URLImage in Frameworks */,
+				693844DC293D74C900BB4EAB /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69245DD928FFE30900D7D87D /* WindowGroupViews */ = {
+			isa = PBXGroup;
+			children = (
+				69245DDA28FFE38C00D7D87D /* WindowGroupContentView.swift */,
+			);
+			path = WindowGroupViews;
+			sourceTree = "<group>";
+		};
+		6930F75029012CB5007F9D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6975934928F73DC500940DA3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				69E61F3928F53F6100EF200B /* Constants.swift */,
+				6975934A28F73DD900940DA3 /* Shell.swift */,
+				6908049828FA7738004F305E /* Color.swift */,
+				69936BD428FB5B21005556AC /* Helpers.swift */,
+				6963320C28FE25FD00059FCF /* Clock.swift */,
+				6953894C2942FB5D00DC03E7 /* SizeReader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6975934D28F73DED00940DA3 /* MenuBarViews */ = {
+			isa = PBXGroup;
+			children = (
+				69E61F5528F6052B00EF200B /* MenuBarContentView.swift */,
+			);
+			path = MenuBarViews;
+			sourceTree = "<group>";
+		};
+		6975934E28F73DFC00940DA3 /* WindowViews */ = {
+			isa = PBXGroup;
+			children = (
+				69936BE428FB6DF7005556AC /* Sidebar */,
+				69E61F0728F53D0400EF200B /* ContentView.swift */,
+				69936BE128FB6C57005556AC /* StreamsView.swift */,
+				6975935628F7437B00940DA3 /* StreamPlayerView.swift */,
+				695355BE29D16A8E00FE65B7 /* StreamView.swift */,
+			);
+			path = WindowViews;
+			sourceTree = "<group>";
+		};
+		6975934F28F73E0A00940DA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69245DD928FFE30900D7D87D /* WindowGroupViews */,
+				6975934E28F73DFC00940DA3 /* WindowViews */,
+				6975934D28F73DED00940DA3 /* MenuBarViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69936BE028FB6375005556AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69936BDA28FB6159005556AC /* StreamlinkService.swift */,
+				69E61F3B28F542DB00EF200B /* AppState.swift */,
+				69B7FDE2293ED26600B310D9 /* DataController.swift */,
+				69936BD728FB5B76005556AC /* UserPreferences.swift */,
+				69936BCE28FA86FC005556AC /* TwitchDataProvider.swift */,
+				6933D792293C4F4500A2D6A0 /* StreamDataServices.swift */,
+				693844D5293C8E3D00BB4EAB /* YouTubeDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69936BE428FB6DF7005556AC /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				6908049228FA5581004F305E /* ChannelsSidebar.swift */,
+				69936BE528FB6E35005556AC /* ChannelList.swift */,
+				69936BE828FB85DE005556AC /* ChannelSearchResultsList.swift */,
+				6963320628FD27F600059FCF /* ChannelSection.swift */,
+				6963320928FD282B00059FCF /* ChannelListItem.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		69E61EF928F53D0400EF200B = {
+			isa = PBXGroup;
+			children = (
+				6930F74F290129FA007F9D2A /* Dpad-Dev-Info.plist */,
+				69E61F0428F53D0400EF200B /* Dpad */,
+				69E61F1628F53D0500EF200B /* DpadTests */,
+				69E61F2028F53D0500EF200B /* DpadUITests */,
+				69E61F0328F53D0400EF200B /* Products */,
+				6930F75029012CB5007F9D2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69E61F0328F53D0400EF200B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69E61F0228F53D0400EF200B /* Dpad.app */,
+				69E61F1328F53D0500EF200B /* DpadTests.xctest */,
+				69E61F1D28F53D0500EF200B /* DpadUITests.xctest */,
+				69E61F5428F5E2B100EF200B /* Dpad Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E61F0428F53D0400EF200B /* Dpad */ = {
+			isa = PBXGroup;
+			children = (
+				6930F74E290128D4007F9D2A /* Info.plist */,
+				69936BE028FB6375005556AC /* Services */,
+				6975934F28F73E0A00940DA3 /* Views */,
+				6975934928F73DC500940DA3 /* Utilities */,
+				69E61F3028F53E5500EF200B /* Models */,
+				69E61F0528F53D0400EF200B /* DpadApp.swift */,
+				69936BD128FA8706005556AC /* MockTwitchDataProvider.swift */,
+				69E61F0928F53D0500EF200B /* Assets.xcassets */,
+				699C889C28F91351009B31F2 /* Assets-Dev.xcassets */,
+				6908049528FA725A004F305E /* Colors.xcassets */,
+				69CF2D8E28F7E1D300B496A3 /* Dpad.entitlements */,
+				69E61F0B28F53D0500EF200B /* Preview Content */,
+			);
+			path = Dpad;
+			sourceTree = "<group>";
+		};
+		69E61F0B28F53D0500EF200B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69E61F0C28F53D0500EF200B /* Preview Assets.xcassets */,
+				69936BC528FA800F005556AC /* streams.json */,
+				69936BC828FA8020005556AC /* channels.json */,
+				69936BCB28FA802C005556AC /* user.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69E61F1628F53D0500EF200B /* DpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				69E61F1728F53D0500EF200B /* DpadTests.swift */,
+			);
+			path = DpadTests;
+			sourceTree = "<group>";
+		};
+		69E61F2028F53D0500EF200B /* DpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69E61F2128F53D0500EF200B /* DpadUITests.swift */,
+				69E61F2328F53D0500EF200B /* DpadUITestsLaunchTests.swift */,
+			);
+			path = DpadUITests;
+			sourceTree = "<group>";
+		};
+		69E61F3028F53E5500EF200B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6975935328F7433B00940DA3 /* StreamPlayer.swift */,
+				693844DD293DABBE00BB4EAB /* Channel.swift */,
+				6975935F28F7D33B00940DA3 /* User.swift */,
+				6975934328F73C8C00940DA3 /* Stream.swift */,
+				6975934528F73CC200940DA3 /* ResponseModels.swift */,
+				6975935C28F75F4A00940DA3 /* FavoriteChannel.swift */,
+				69936BDD28FB616C005556AC /* Errors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69E61F0128F53D0400EF200B /* Dpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E61F2728F53D0500EF200B /* Build configuration list for PBXNativeTarget "Dpad" */;
+			buildPhases = (
+				69E61EFE28F53D0400EF200B /* Sources */,
+				69E61EFF28F53D0400EF200B /* Frameworks */,
+				69E61F0028F53D0400EF200B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dpad;
+			packageProductDependencies = (
+				693844D9293D72D100BB4EAB /* SwiftSoup */,
+				69B7FDE6293F1BE600B310D9 /* Sextant */,
+				695CAF10294050C7003B0B76 /* URLImage */,
+				695CAF12294050C7003B0B76 /* URLImageStore */,
+			);
+			productName = Twitch;
+			productReference = 69E61F0228F53D0400EF200B /* Dpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E61F1228F53D0500EF200B /* DpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E61F2A28F53D0500EF200B /* Build configuration list for PBXNativeTarget "DpadTests" */;
+			buildPhases = (
+				69E61F0F28F53D0500EF200B /* Sources */,
+				69E61F1028F53D0500EF200B /* Frameworks */,
+				69E61F1128F53D0500EF200B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E61F1528F53D0500EF200B /* PBXTargetDependency */,
+			);
+			name = DpadTests;
+			productName = TwitchTests;
+			productReference = 69E61F1328F53D0500EF200B /* DpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69E61F1C28F53D0500EF200B /* DpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E61F2D28F53D0500EF200B /* Build configuration list for PBXNativeTarget "DpadUITests" */;
+			buildPhases = (
+				69E61F1928F53D0500EF200B /* Sources */,
+				69E61F1A28F53D0500EF200B /* Frameworks */,
+				69E61F1B28F53D0500EF200B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69E61F1F28F53D0500EF200B /* PBXTargetDependency */,
+			);
+			name = DpadUITests;
+			productName = TwitchUITests;
+			productReference = 69E61F1D28F53D0500EF200B /* DpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		69E61F3F28F5E2B100EF200B /* Dpad Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E61F5128F5E2B100EF200B /* Build configuration list for PBXNativeTarget "Dpad Dev" */;
+			buildPhases = (
+				69E61F4428F5E2B100EF200B /* Sources */,
+				69E61F4B28F5E2B100EF200B /* Frameworks */,
+				69E61F4E28F5E2B100EF200B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dpad Dev";
+			packageProductDependencies = (
+				693844DB293D74C900BB4EAB /* SwiftSoup */,
+				69B7FDE8293F241800B310D9 /* Sextant */,
+				695CAF14294051A8003B0B76 /* URLImage */,
+				695CAF16294051A8003B0B76 /* URLImageStore */,
+			);
+			productName = Twitch;
+			productReference = 69E61F5428F5E2B100EF200B /* Dpad Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69E61EFA28F53D0400EF200B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					69E61F0128F53D0400EF200B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					69E61F1228F53D0500EF200B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 69E61F0128F53D0400EF200B;
+					};
+					69E61F1C28F53D0500EF200B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 69E61F0128F53D0400EF200B;
+					};
+				};
+			};
+			buildConfigurationList = 69E61EFD28F53D0400EF200B /* Build configuration list for PBXProject "Dpad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69E61EF928F53D0400EF200B;
+			packageReferences = (
+				693844D8293D72D100BB4EAB /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				69B7FDE5293F1BE600B310D9 /* XCRemoteSwiftPackageReference "Sextant" */,
+				695CAF0F294050C7003B0B76 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 69E61F0328F53D0400EF200B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E61F0128F53D0400EF200B /* Dpad */,
+				69E61F3F28F5E2B100EF200B /* Dpad Dev */,
+				69E61F1228F53D0500EF200B /* DpadTests */,
+				69E61F1C28F53D0500EF200B /* DpadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69E61F0028F53D0400EF200B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69936BCC28FA802C005556AC /* user.json in Resources */,
+				69936BC928FA8020005556AC /* channels.json in Resources */,
+				6908049628FA725A004F305E /* Colors.xcassets in Resources */,
+				69E61F0D28F53D0500EF200B /* Preview Assets.xcassets in Resources */,
+				69E61F0A28F53D0500EF200B /* Assets.xcassets in Resources */,
+				69936BC628FA800F005556AC /* streams.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F1128F53D0500EF200B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F1B28F53D0500EF200B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F4E28F5E2B100EF200B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69936BCD28FA802C005556AC /* user.json in Resources */,
+				69936BCA28FA8020005556AC /* channels.json in Resources */,
+				6908049728FA725A004F305E /* Colors.xcassets in Resources */,
+				699C889D28F91351009B31F2 /* Assets-Dev.xcassets in Resources */,
+				69E61F4F28F5E2B100EF200B /* Preview Assets.xcassets in Resources */,
+				69936BC728FA800F005556AC /* streams.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69E61EFE28F53D0400EF200B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6975935428F7433B00940DA3 /* StreamPlayer.swift in Sources */,
+				69936BD828FB5B76005556AC /* UserPreferences.swift in Sources */,
+				69E61F0828F53D0400EF200B /* ContentView.swift in Sources */,
+				6975934B28F73DD900940DA3 /* Shell.swift in Sources */,
+				69936BD528FB5B21005556AC /* Helpers.swift in Sources */,
+				69E61F3C28F542DB00EF200B /* AppState.swift in Sources */,
+				69936BE228FB6C57005556AC /* StreamsView.swift in Sources */,
+				6908049928FA7738004F305E /* Color.swift in Sources */,
+				6963320728FD27F600059FCF /* ChannelSection.swift in Sources */,
+				69936BCF28FA86FC005556AC /* TwitchDataProvider.swift in Sources */,
+				69E61F0628F53D0400EF200B /* DpadApp.swift in Sources */,
+				6963320D28FE25FD00059FCF /* Clock.swift in Sources */,
+				6908049328FA5581004F305E /* ChannelsSidebar.swift in Sources */,
+				69245DDB28FFE38C00D7D87D /* WindowGroupContentView.swift in Sources */,
+				6975936028F7D33B00940DA3 /* User.swift in Sources */,
+				69936BD228FA8706005556AC /* MockTwitchDataProvider.swift in Sources */,
+				6975934628F73CC200940DA3 /* ResponseModels.swift in Sources */,
+				6963320A28FD282B00059FCF /* ChannelListItem.swift in Sources */,
+				6975935728F7437B00940DA3 /* StreamPlayerView.swift in Sources */,
+				6975934428F73C8C00940DA3 /* Stream.swift in Sources */,
+				693844D6293C8E3D00BB4EAB /* YouTubeDataService.swift in Sources */,
+				693844DE293DABBE00BB4EAB /* Channel.swift in Sources */,
+				69936BDE28FB616C005556AC /* Errors.swift in Sources */,
+				69E61F5628F6052B00EF200B /* MenuBarContentView.swift in Sources */,
+				69E61F3A28F53F6100EF200B /* Constants.swift in Sources */,
+				6953894D2942FB5D00DC03E7 /* SizeReader.swift in Sources */,
+				69B7FDE3293ED26600B310D9 /* DataController.swift in Sources */,
+				6975935D28F75F4A00940DA3 /* FavoriteChannel.swift in Sources */,
+				69936BE628FB6E35005556AC /* ChannelList.swift in Sources */,
+				69936BE928FB85DE005556AC /* ChannelSearchResultsList.swift in Sources */,
+				6933D793293C4F4500A2D6A0 /* StreamDataServices.swift in Sources */,
+				695355BF29D16A8E00FE65B7 /* StreamView.swift in Sources */,
+				69936BDB28FB6159005556AC /* StreamlinkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F0F28F53D0500EF200B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E61F1828F53D0500EF200B /* DpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F1928F53D0500EF200B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E61F2228F53D0500EF200B /* DpadUITests.swift in Sources */,
+				69E61F2428F53D0500EF200B /* DpadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E61F4428F5E2B100EF200B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6975935528F7433B00940DA3 /* StreamPlayer.swift in Sources */,
+				69936BD928FB5B76005556AC /* UserPreferences.swift in Sources */,
+				69E61F4528F5E2B100EF200B /* ContentView.swift in Sources */,
+				6975934C28F73DD900940DA3 /* Shell.swift in Sources */,
+				69936BD628FB5B21005556AC /* Helpers.swift in Sources */,
+				69E61F4628F5E2B100EF200B /* AppState.swift in Sources */,
+				69936BE328FB6C57005556AC /* StreamsView.swift in Sources */,
+				6908049A28FA7738004F305E /* Color.swift in Sources */,
+				6963320828FD27F600059FCF /* ChannelSection.swift in Sources */,
+				69936BD028FA86FC005556AC /* TwitchDataProvider.swift in Sources */,
+				69E61F4928F5E2B100EF200B /* DpadApp.swift in Sources */,
+				6963320E28FE25FD00059FCF /* Clock.swift in Sources */,
+				6908049428FA5581004F305E /* ChannelsSidebar.swift in Sources */,
+				69245DDC28FFE38C00D7D87D /* WindowGroupContentView.swift in Sources */,
+				6975936128F7D33B00940DA3 /* User.swift in Sources */,
+				69936BD328FA8706005556AC /* MockTwitchDataProvider.swift in Sources */,
+				6975935128F7402C00940DA3 /* ResponseModels.swift in Sources */,
+				6963320B28FD282B00059FCF /* ChannelListItem.swift in Sources */,
+				6975935828F7437B00940DA3 /* StreamPlayerView.swift in Sources */,
+				6975935028F7402900940DA3 /* Stream.swift in Sources */,
+				693844D7293C8E3D00BB4EAB /* YouTubeDataService.swift in Sources */,
+				693844DF293DABBE00BB4EAB /* Channel.swift in Sources */,
+				69936BDF28FB616C005556AC /* Errors.swift in Sources */,
+				69E61F5728F6062C00EF200B /* MenuBarContentView.swift in Sources */,
+				69E61F4A28F5E2B100EF200B /* Constants.swift in Sources */,
+				6953894E2942FB5D00DC03E7 /* SizeReader.swift in Sources */,
+				69B7FDE4293ED26600B310D9 /* DataController.swift in Sources */,
+				6975935E28F75F4A00940DA3 /* FavoriteChannel.swift in Sources */,
+				69936BE728FB6E35005556AC /* ChannelList.swift in Sources */,
+				69936BEA28FB85DE005556AC /* ChannelSearchResultsList.swift in Sources */,
+				6933D794293C67A400A2D6A0 /* StreamDataServices.swift in Sources */,
+				695355C029D16A8E00FE65B7 /* StreamView.swift in Sources */,
+				69936BDC28FB6159005556AC /* StreamlinkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69E61F1528F53D0500EF200B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E61F0128F53D0400EF200B /* Dpad */;
+			targetProxy = 69E61F1428F53D0500EF200B /* PBXContainerItemProxy */;
+		};
+		69E61F1F28F53D0500EF200B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69E61F0128F53D0400EF200B /* Dpad */;
+			targetProxy = 69E61F1E28F53D0500EF200B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69E61F2528F53D0500EF200B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69E61F2628F53D0500EF200B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		69E61F2828F53D0500EF200B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Dpad/Dpad.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Dpad/Preview Content\"";
+				DEVELOPMENT_TEAM = Q39P3W6Z54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dpad/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paulkim.Dpad-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69E61F2928F53D0500EF200B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Dpad/Dpad.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Dpad/Preview Content\"";
+				DEVELOPMENT_TEAM = Q39P3W6Z54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dpad/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paulkim.Dpad-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		69E61F2B28F53D0500EF200B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.DpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dpad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dpad";
+			};
+			name = Debug;
+		};
+		69E61F2C28F53D0500EF200B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.DpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dpad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dpad";
+			};
+			name = Release;
+		};
+		69E61F2E28F53D0500EF200B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.DpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dpad;
+			};
+			name = Debug;
+		};
+		69E61F2F28F53D0500EF200B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulkim.DpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dpad;
+			};
+			name = Release;
+		};
+		69E61F5228F5E2B100EF200B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Dpad/Dpad.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dpad/Preview Content\"";
+				DEVELOPMENT_TEAM = Q39P3W6Z54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dpad-Dev-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paulkim.Dpad-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69E61F5328F5E2B100EF200B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Dpad/Dpad.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dpad/Preview Content\"";
+				DEVELOPMENT_TEAM = Q39P3W6Z54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dpad-Dev-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paulkim.Dpad-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E61EFD28F53D0400EF200B /* Build configuration list for PBXProject "Dpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E61F2528F53D0500EF200B /* Debug */,
+				69E61F2628F53D0500EF200B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E61F2728F53D0500EF200B /* Build configuration list for PBXNativeTarget "Dpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E61F2828F53D0500EF200B /* Debug */,
+				69E61F2928F53D0500EF200B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E61F2A28F53D0500EF200B /* Build configuration list for PBXNativeTarget "DpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E61F2B28F53D0500EF200B /* Debug */,
+				69E61F2C28F53D0500EF200B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E61F2D28F53D0500EF200B /* Build configuration list for PBXNativeTarget "DpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E61F2E28F53D0500EF200B /* Debug */,
+				69E61F2F28F53D0500EF200B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E61F5128F5E2B100EF200B /* Build configuration list for PBXNativeTarget "Dpad Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E61F5228F5E2B100EF200B /* Debug */,
+				69E61F5328F5E2B100EF200B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		693844D8293D72D100BB4EAB /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		695CAF0F294050C7003B0B76 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		69B7FDE5293F1BE600B310D9 /* XCRemoteSwiftPackageReference "Sextant" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KittyMac/Sextant";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		693844D9293D72D100BB4EAB /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693844D8293D72D100BB4EAB /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		693844DB293D74C900BB4EAB /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 693844D8293D72D100BB4EAB /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		695CAF10294050C7003B0B76 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 695CAF0F294050C7003B0B76 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		695CAF12294050C7003B0B76 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 695CAF0F294050C7003B0B76 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		695CAF14294051A8003B0B76 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 695CAF0F294050C7003B0B76 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		695CAF16294051A8003B0B76 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 695CAF0F294050C7003B0B76 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		69B7FDE6293F1BE600B310D9 /* Sextant */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69B7FDE5293F1BE600B310D9 /* XCRemoteSwiftPackageReference "Sextant" */;
+			productName = Sextant;
+		};
+		69B7FDE8293F241800B310D9 /* Sextant */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69B7FDE5293F1BE600B310D9 /* XCRemoteSwiftPackageReference "Sextant" */;
+			productName = Sextant;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 69E61EFA28F53D0400EF200B /* Project object */;
+}

@@ -1,0 +1,10 @@
+## User settings
+xcuserdata/
+Dpad.xcodeproj/xcuserdata/paulkim.xcuserdatad/xcschemes/xcschememanagement.plist
+/.DS_Store
+/Dpad.xcodeproj/project.xcworkspace/xcshareddata/swiftpm
+/Dpad.xcodeproj/project.xcworkspace/xcuserdata/paulkim.xcuserdatad/UserInterfaceState.xcuserstate
+/Dpad/.DS_Store
+*.xcbkptlist
+*.xcuserstate
+.DS_Store

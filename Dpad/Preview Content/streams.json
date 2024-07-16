@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "id": "47303655965",
+      "user_id": "36340781",
+      "user_login": "tarik",
+      "user_name": "tarik",
+      "game_id": "516575",
+      "game_name": "VALORANT",
+      "type": "live",
+      "title": "10 mans | Twitter @tarik",
+      "viewer_count": 18046,
+      "started_at": "2022-10-14T21:22:47Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tarik-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "40350118233",
+      "user_id": "132230344",
+      "user_login": "moistcr1tikal",
+      "user_name": "moistcr1tikal",
+      "game_id": "494081",
+      "game_name": "Scorn",
+      "type": "live",
+      "title": "Been waiting years for this game",
+      "viewer_count": 16701,
+      "started_at": "2022-10-15T03:02:52Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_moistcr1tikal-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41392088619",
+      "user_id": "30104304",
+      "user_login": "maximilian_dood",
+      "user_name": "Maximilian_DOOD",
+      "game_id": "13050",
+      "game_name": "Castlevania: Symphony of the Night",
+      "type": "live",
+      "title": "THE SYMPHONY OF THE NIGHT - Castlevania...My 1st Playthru - SCORN Later?!  !NZXT (10-14)",
+      "viewer_count": 10341,
+      "started_at": "2022-10-15T03:47:13Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maximilian_dood-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39767196791",
+      "user_id": "455679396",
+      "user_login": "woohankyung",
+      "user_name": "한갱",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "ㅎㅇ귀한 낮 한갱임니다",
+      "viewer_count": 6762,
+      "started_at": "2022-10-15T04:00:50Z",
+      "language": "ko",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woohankyung-{width}x{height}.jpg",
+      "tag_ids": [
+        "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+      ],
+      "is_mature": true
+    },
+    {
+      "id": "39767120967",
+      "user_id": "139635292",
+      "user_login": "llilka",
+      "user_name": "릴카",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "12시에 왔지만 12시에 못 온 나",
+      "viewer_count": 4557,
+      "started_at": "2022-10-15T03:17:48Z",
+      "language": "ko",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_llilka-{width}x{height}.jpg",
+      "tag_ids": [
+        "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "47305213197",
+      "user_id": "128002336",
+      "user_login": "s0mcs",
+      "user_name": "s0mcs",
+      "game_id": "516575",
+      "game_name": "VALORANT",
+      "type": "live",
+      "title": "NRG s0m W STREAMER | I DO IT FOR THE MONIES | !video !youtube !discord !socials",
+      "viewer_count": 4523,
+      "started_at": "2022-10-15T01:28:14Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_s0mcs-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41391453595",
+      "user_id": "62679951",
+      "user_login": "joona",
+      "user_name": "joona",
+      "game_id": "516575",
+      "game_name": "VALORANT",
+      "type": "live",
+      "title": "AAAA",
+      "viewer_count": 2518,
+      "started_at": "2022-10-15T01:44:30Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_joona-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "47305054445",
+      "user_id": "47474524",
+      "user_login": "dizzykitten",
+      "user_name": "DizzyKitten",
+      "game_id": "494081",
+      "game_name": "Scorn",
+      "type": "live",
+      "title": "Trying out Scorn! ASMR later!",
+      "viewer_count": 1756,
+      "started_at": "2022-10-15T00:59:10Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dizzykitten-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "40349352361",
+      "user_id": "174754672",
+      "user_login": "prod",
+      "user_name": "PROD",
+      "game_id": "498566",
+      "game_name": "Slots",
+      "type": "live",
+      "title": "Making Millions with Gamdom #ad 18+",
+      "viewer_count": 1012,
+      "started_at": "2022-10-15T00:32:56Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_prod-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41392067355",
+      "user_id": "84569419",
+      "user_login": "plushys",
+      "user_name": "plushys",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "starting master chef s3 | feeling a bit sicky",
+      "viewer_count": 903,
+      "started_at": "2022-10-15T03:41:46Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_plushys-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "40347363785",
+      "user_id": "159736397",
+      "user_login": "fareeha",
+      "user_name": "Fareeha",
+      "game_id": "515025",
+      "game_name": "Overwatch 2",
+      "type": "live",
+      "title": "Birthday stream!!! anywhere from 24mins-24hrs.  !newsong !drops",
+      "viewer_count": 594,
+      "started_at": "2022-10-14T17:29:57Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fareeha-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+        "c2542d6d-cd10-4532-919b-3d19f30a768b"
+      ],
+      "is_mature": true
+    },
+    {
+      "id": "47306329789",
+      "user_id": "28209837",
+      "user_login": "tiffae",
+      "user_name": "Tiffae",
+      "game_id": "516575",
+      "game_name": "VALORANT",
+      "type": "live",
+      "title": "Guessing ranks based on PC Setup ONLY.",
+      "viewer_count": 489,
+      "started_at": "2022-10-15T04:30:56Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tiffae-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41392221707",
+      "user_id": "663748797",
+      "user_login": "miki_tokyo",
+      "user_name": "miki_tokyo",
+      "game_id": "509672",
+      "game_name": "Travel & Outdoors",
+      "type": "live",
+      "title": "Camp in TOKYO🗼 Cook rice and make loco moco bowl🏕️",
+      "viewer_count": 354,
+      "started_at": "2022-10-15T04:18:06Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_miki_tokyo-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41391684411",
+      "user_id": "29158331",
+      "user_login": "cardboard_cowboy",
+      "user_name": "Cardboard_Cowboy",
+      "game_id": "492535",
+      "game_name": "Celeste",
+      "type": "live",
+      "title": "Boop Boop!",
+      "viewer_count": 265,
+      "started_at": "2022-10-15T02:19:48Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_cardboard_cowboy-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39766995303",
+      "user_id": "216473763",
+      "user_login": "yattaa_",
+      "user_name": "얏따",
+      "game_id": "138585",
+      "game_name": "Hearthstone",
+      "type": "live",
+      "title": "[v] 잘 자서 떄깔 좋은 얏따（*´▽｀*）",
+      "viewer_count": 194,
+      "started_at": "2022-10-15T02:01:20Z",
+      "language": "ko",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yattaa_-{width}x{height}.jpg",
+      "tag_ids": [
+        "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4",
+        "b157e8d6-b7ba-49f4-836f-09886c072f1f"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41391492395",
+      "user_id": "143293869",
+      "user_login": "mrwobblestwitch",
+      "user_name": "mrwobblestwitch",
+      "game_id": "32982",
+      "game_name": "Grand Theft Auto V",
+      "type": "live",
+      "title": "One life Perma Character: DEAN PRESSED |  DAY 15 UNCAPPED !SUBATHON #glorious",
+      "viewer_count": 180,
+      "started_at": "2022-10-15T01:50:11Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrwobblestwitch-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": true
+    },
+    {
+      "id": "41392187627",
+      "user_id": "114402277",
+      "user_login": "aruuu",
+      "user_name": "ARUUU",
+      "game_id": "1528842518",
+      "game_name": "Into the Backrooms",
+      "type": "live",
+      "title": "ANIME GIRL GETS THE GHOSTUSSY !socials",
+      "viewer_count": 167,
+      "started_at": "2022-10-15T04:09:53Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_aruuu-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41389278027",
+      "user_id": "232672264",
+      "user_login": "insomniac",
+      "user_name": "Insomniac",
+      "game_id": "26936",
+      "game_name": "Music",
+      "type": "live",
+      "title": "🔴InsomniacTV • Livestreams + Live Sets • Music 24/7",
+      "viewer_count": 82,
+      "started_at": "2022-10-14T12:58:58Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_insomniac-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+        "9f1b01a8-87b9-4e25-94de-8705c1c1f4dc",
+        "338d7a92-8bcc-429e-a30c-9f1c41a2d79a",
+        "d81d54c8-d705-4df6-aaf0-01d715c1dbcc",
+        "ddb625af-5920-49cc-9f13-3716f87941dc",
+        "c5247b10-deec-4d7a-84a5-db6a75cb5908"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41391359915",
+      "user_id": "59075042",
+      "user_login": "msteamkk",
+      "user_name": "MsTeamKK",
+      "game_id": "497057",
+      "game_name": "Destiny 2",
+      "type": "live",
+      "title": "SUBATHON - Auctioning Leather Work - You're Pretty! !auction !subathon",
+      "viewer_count": 74,
+      "started_at": "2022-10-15T01:30:53Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_msteamkk-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "46179401404",
+      "user_id": "623978240",
+      "user_login": "theexecs",
+      "user_name": "TheExecs",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "⚠️REQUEST NIGHT⚠️ COME WITH THE 🔥😈 ⚠️ #ad !LIQUIDIV !discord Kpop vibes",
+      "viewer_count": 66,
+      "started_at": "2022-10-15T01:52:53Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_theexecs-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39767162391",
+      "user_id": "457672246",
+      "user_login": "gkskdksla",
+      "user_name": "이소이소이",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "type": "live",
+      "title": "날씨가 좋네용",
+      "viewer_count": 41,
+      "started_at": "2022-10-15T03:41:52Z",
+      "language": "ko",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gkskdksla-{width}x{height}.jpg",
+      "tag_ids": [
+        "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+      ],
+      "is_mature": true
+    },
+    {
+      "id": "41391235131",
+      "user_id": "139620823",
+      "user_login": "foundpocketlint",
+      "user_name": "FoundPocketLint",
+      "game_id": "516575",
+      "game_name": "VALORANT",
+      "type": "live",
+      "title": "Lint+ | Freaky Fridays | VALORANT | First time back from TwitchCon!",
+      "viewer_count": 9,
+      "started_at": "2022-10-15T01:13:45Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_foundpocketlint-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "39767277127",
+      "user_id": "30272512",
+      "user_login": "mooters",
+      "user_name": "뭇뭇ㆍ",
+      "game_id": "490100",
+      "game_name": "Lost Ark",
+      "type": "live",
+      "title": "[eng/kr] 10/15 하브 1-4 두렵다",
+      "viewer_count": 6,
+      "started_at": "2022-10-15T04:40:53Z",
+      "language": "ko",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mooters-{width}x{height}.jpg",
+      "tag_ids": [
+        "ab2975e3-b9ca-4b1a-a93e-fb61a5d5c3a4"
+      ],
+      "is_mature": false
+    },
+    {
+      "id": "41391810875",
+      "user_id": "522512527",
+      "user_login": "mjkora",
+      "user_name": "MJKora",
+      "game_id": "515025",
+      "game_name": "Overwatch 2",
+      "type": "live",
+      "title": "3days left of this act",
+      "viewer_count": 2,
+      "started_at": "2022-10-15T02:44:22Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mjkora-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ],
+      "is_mature": false
+    }
+  ],
+  "pagination": {}
+}
